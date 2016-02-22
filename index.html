@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>North49</title>
+	<link rel="stylesheet" type="text/css" href="Style/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href='https://fonts.googleapis.com/css?family=Raleway:400,600,900' rel='stylesheet' type='text/css'>
+	<link rel="icon" type="image/png" href="Assets/favicon_49.png">
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
+<!-- ----------------------------------------------------------HTML -->
+<body>
+<!-- ----------------------------------------------------------Header -->
+	<div class="background"></div>
+
+	<header>
+		<div class="wrapper">
+			<div class="logo">
+				<a href="#"><img src="assets/logo.png"></a>
+			</div>
+			<div class="headRight">
+				<div class="cLink">
+					<a href="http://www.cic.gc.ca/english/" target="_blank"><p>Canadian Immigration</p></a>
+				</div>
+				<div id="leaf">
+					<a href="#"><img src="assets/leaf.png"></a>
+				</div>
+			</div>
+		</div>
+	</header>
+	
+
+<!-- ----------------------------------------------------------Main -->
+	<main>
+		<div class="wrapper">
+		<!-- -----------------------Left -->
+			<div class="left">
+		     	<div class="migrate">
+		     		<h1> Planning to migrate north for <a href="https://www.donaldjtrump.com/" target="_blank"><span>Mr.Trump's</span></a> term?</h1>
+		     		<p> You're not alone! The glorious nation of <span>Canada</span> welcomes you with open arms, and would love to help you find a new home for the next 4-8 years. <span>Simply type in your address</span> and we will find you the closest Canadian city worth living in!</p>
+		     	</div>
+		    </div>
+	    
+		<!-- -----------------------Right -->
+		     
+
+			<div class="right">
+				<div class="box">
+				   <form id="userAddress">
+			      		 <input id="address" type="textbox"  placeholder="" autocomplete="off" autofocus>
+			      		 <!-- value="yourLocation" -->
+			      		 <p> Type your address - Ex. "541 Ave of the Americas, New York"</p>
+			     		 <input id="submit" type="submit" value="Submit">
+			     	</form>
+			     </div> <!--box-->
+		     </div> <!--right -->
+	    </div> <!--wrapper -->
+	</main>
+
+
+<!-- ----------------------------------------------------------Result -->
+	<div class="result">
+		<div class="wrapper">
+			<div class="resultLeft">
+				<!-- <div class="top">
+					<p>Your closest Canadian Cities are...</p>
+					<div class="buttons">
+						<div class="city city1">Toronto</div>
+						<div class="city city2">Calgary</div>
+						<div class="city city3">Montreal</div>
+					</div>
+				</div> -->
+				<div class="title">
+					<h2>Start packing! Your closest Canadian city is</h2>
+					<h1>Toronto.<span id="km">4900KM</span></h1>
+					
+					<p><span>The center of the universe as we know it...</span> It's the city with the big pointy thing in it. Toronto is Canada's largest city, the fourth largest in North America, and home to a diverse population of about 2.8 million people. It's a global centre for business, finance, arts and culture and is consistently ranked one of the world's most livable cities.</p>
+				</div>
+			</div>
+			<div class="resultRight">
+				<div class="rightContain">
+					<div class="container walk">
+						<h2>Walk</h2>
+						<h3 id="walk">300</h3>
+					</div>
+
+					<div class="container bike">
+						<h2>Bike</h2>
+						<h3 id="bike">300</h3>
+					</div>
+
+					<div class="container drive">
+						<h2>Drive</h2>
+						<h3 id="drive">300</h3>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<!-- ----------------------------------------------------------Footer -->
+
+	<footer>
+		<div class="wrapper">
+			<p>Designed and coded by <a href="http://www.lukediamantopoulos.com" target="_blank">Luke Diamantopoulos</a>   |   Created with <a href="https://developers.google.com/maps/documentation/javascript/">Google API</a></p>
+			<div class="social">
+				<a href="https://www.instagram.com/lukediamantopoulos/" target="_blank"><i class="fa fa-instagram"></i></a>
+				<a href="http://www.lukediamantopoulos.com/" target="_blank"><i class="fa fa-diamond"></i></i></a>
+				<a href="https://ca.linkedin.com/in/luke-diamantopoulos-8517ab90" target="_blank"><i class="fa fa-linkedin"></i></a>
+				<a href="https://twitter.com/Diamantopouls" target="_blank"><i class="fa fa-twitter"></i></a>
+			</div>
+		</div>
+	</footer>
+
+
+
+<!-- ----------------------------------------------------------JAVASCRIPT -->
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCPJiNp9WLhIaAVBYrpsPWqCluZWalWjj8">
+       </script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script src="javascript.js"></script>
+</body>
+</html>
